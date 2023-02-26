@@ -1,0 +1,9 @@
+.marker-logo-wrapper {
+    position: absolute;
+    transform: 'translate(-50%, -50%)';
+}
+
+.marker-logo {
+    height: 55px;
+    width: 55px;
+}

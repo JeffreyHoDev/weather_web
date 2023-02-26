@@ -1,0 +1,17 @@
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-info-section-1 {
+    margin: 0 1.5rem;
+}
+
+.weather-info-section-2 {
+    margin: 0 1.5rem;
+}
+
+.logo-icon {
+    width: 66px;
+    height: 66px;
+}
