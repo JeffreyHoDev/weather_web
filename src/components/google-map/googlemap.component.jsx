@@ -14,7 +14,7 @@ const GoogleMap = ({ queriedList, setForecastData, setQueriedArea }) => {
     // Important! Always set the container height explicitly
     <div style={{ height: '70vh', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: import.meta.env.VITE_GOOGLE_API_KEY }}
+        bootstrapURLKeys={{ key: import.meta.env.production.VITE_GOOGLE_API_KEY }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
